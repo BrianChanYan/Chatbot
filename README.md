@@ -1,12 +1,12 @@
-# OfflineChat - Ollama Web Interface
+# OfflineChat
 
-Local chat bot interface, powered by Qwen2.5:14b.
+Local chatbot interface powered by Qwen2.5:14b.
 
 ## Quick Start
 
 ```bash
 # Navigate to the project directory
-cd /Users/brian/Desktop/ollama
+cd path/to/Chatbot
 
 # Start the application
 ./scripts/start.sh
@@ -17,9 +17,9 @@ cd /Users/brian/Desktop/ollama
 
 ## Documentation
 
-For complete documentation, see [docs/README.md](docs/README.md)
+For complete setup guide, see [SETUP.md](docs/SETUP.md)
 
-For quick reference commands, see [docs/startup_commands.txt](docs/startup_commands.txt)
+For quick reference commands, see [startup_commands.txt](docs/startup_commands.txt)
 
 ## Project Structure
 
