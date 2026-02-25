@@ -1,0 +1,30 @@
+# Ollama Chat Startup Commands
+
+## Navigate to Project Directory
+cd /YOUR_PATH_TO/scripts
+
+## Start Ollama Service (in a separate terminal)
+ollama serve
+
+## Start the Chat Application
+node server/server.js
+
+## Alternative: Use Startup Script
+./start.sh
+
+## Stop the Application
+./stop.sh
+
+## Access the Application
+Open browser and navigate to: http://localhost:8080
+
+##########################################
+cd /YOUR_PATH_TO/scripts
+./start.sh
+./stop.sh
+##########################################
+
+## Notes
+- Ensure Ollama is running before starting the chat application
+- Default port is 8080
+- Press Ctrl+C to stop the Node.js server if running manually
